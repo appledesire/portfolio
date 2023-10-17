@@ -1,0 +1,557 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <!-- Metadata of the Webpage -->
+    <!-- Character-set Metadata -->
+    <meta charset="utf-8" />
+    <link rel="icon" type="image/jpg" href="./assets/img/profile.jpg" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <!-- Viewport Metadata -->
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <!-- Description Metadata-->
+    <meta name="description" content="Portfolio Website" />
+    <!-- Author Metadata -->
+    <meta name="author" content="Dennis Lee" />
+    <!-- Keyword Metadata -->
+    <meta
+      name="keywords"
+      content="Dennis Lee, Portfolio, Projects, Contact, About, Frontend Developer, Full Stack Developer, Blockchain Developer"
+    />
+
+    <!-- Google Tag Manager -->
+    <script>
+      (function (w, d, s, l, i) {
+        w[l] = w[l] || [];
+        w[l].push({ "gtm.start": new Date().getTime(), event: "gtm.js" });
+        var f = d.getElementsByTagName(s)[0],
+          j = d.createElement(s),
+          dl = l != "dataLayer" ? "&l=" + l : "";
+        j.async = true;
+        j.src = "https://www.googletagmanager.com/gtm.js?id=" + i + dl;
+        f.parentNode.insertBefore(j, f);
+      })(window, document, "script", "dataLayer", "GTM-PGZH8HT");
+    </script>
+    <!-- End Google Tag Manager -->
+
+    <!-- Global site tag (gtag.js) - Google Analytics -->
+    <script
+      async
+      src="https://www.googletagmanager.com/gtag/js?id=UA-126939217-2"
+    ></script>
+    <script>
+      window.dataLayer = window.dataLayer || [];
+      function gtag() {
+        dataLayer.push(arguments);
+      }
+      gtag("js", new Date());
+
+      gtag("config", "UA-126939217-2");
+    </script>
+
+    <!-- Webpage Logo -->
+    <link rel="shortcut icon" />
+    <!-- Webpage Title -->
+    <title>Dennis Lee's Portfolio</title>
+
+    <!-- Import CSS: Main Stylesheet -->
+    <link rel="stylesheet" href="./assets/css/main.css" />
+
+    <link
+      rel="stylesheet"
+      href="https://cdn.jsdelivr.net/gh/devicons/devicon@v2.15.1/devicon.min.css"
+    />
+  </head>
+
+  <body>
+    <div>
+      <header class="header">
+        <div class="header__content">
+          <div class="header__logo-container">
+            <div class="header__logo-img-cont">
+              <img
+                src="./assets/img/profile.jpg"
+                alt="Dennis Lee Profile Image"
+                class="profile-img"
+              />
+            </div>
+            <span class="header__logo-sub">Dennis Lee</span>
+          </div>
+          <div class="header__main">
+            <ul class="header__links">
+              <li class="header__link-wrapper">
+                <a href="#home" class="header__link"> Home </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="#about" class="header__link">About </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="#projects" class="header__link"> Projects </a>
+              </li>
+              <li class="header__link-wrapper">
+                <a href="#contact" class="header__link"> Contact </a>
+              </li>
+            </ul>
+            <div class="header__main-ham-menu-cont">
+              <img
+                src="./assets/svg/ham-menu.svg"
+                alt="hamburger menu"
+                class="header__main-ham-menu"
+              />
+            </div>
+          </div>
+        </div>
+        <div class="header__sm-menu">
+          <div class="header__sm-menu-content">
+            <ul class="header__sm-menu-links">
+              <li class="header__sm-menu-link">
+                <a href="./index.html"> Home </a>
+              </li>
+
+              <li class="header__sm-menu-link">
+                <a href="./index.html#about"> About </a>
+              </li>
+
+              <li class="header__sm-menu-link">
+                <a href="./index.html#projects"> Projects </a>
+              </li>
+
+              <li class="header__sm-menu-link">
+                <a href="./index.html#contact"> Contact </a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </header>
+    </div>
+    <div id="particles-js">
+      <div class="main" id="home">
+        <h1>
+          <span class="site-title">Dennis Lee</span>
+          <span class="site-description"> Senior FullStack Developer </span>
+        </h1>
+        <div class="link-icons">
+          <!-- <span class="icon">
+            <a
+              aria-label="My LinkedIn Profile"
+              target="_blank"
+              href="https://www.linkedin.com/in/lucas-wong-70b153235"
+            >
+              <i class="fa fa-linkedin" aria-hidden="true"></i>
+            </a>
+          </span> -->
+
+          <span class="icon">
+            <a
+              aria-label="My Github Profile"
+              target="_blank"
+              href="https://github.com/appledesire"
+              ><i class="fa fa-github-alt" aria-hidden="true"></i>
+            </a>
+          </span>
+
+          <span class="icon"
+            ><a
+              aria-label="My Résumé"
+              target="_blank"
+              href="https://drive.google.com/file/d/1TzuLCx8ADTF6hjchKitIDfAZRjqrVmZx/view?usp=drive_link"
+              ><i class="fa fa-file-pdf-o" aria-hidden="true"></i> </a
+          ></span>
+
+          <span class="icon"
+            ><a
+              aria-label="My Skype"
+              target="_blank"
+              href="https://join.skype.com/invite/O7R0YS2IMfXK"
+              ><i class="fa fa-skype" aria-hidden="true"></i></a
+          ></span>
+
+          <span class="icon"
+            ><a
+              aria-label="My Telegram"
+              target="_blank"
+              href="https://t.me/appledesire"
+              ><i class="fa fa-telegram" aria-hidden="true"></i></a
+          ></span>
+        </div>
+      </div>
+    </div>
+
+    <!-- About Section -->
+    <section id="about">
+      <!-- User Introduction-->
+      <div class="container">
+        <div class="user-details">
+          <h1>Welcome to my portfolio</h1>
+          <picture>
+            <img
+              src="./assets/img/profile.jpg"
+              alt="Professional Me"
+              width="15%"
+              class="profile-img"
+            />
+          </picture>
+          <p>
+            I am a professional fullstack developer with 8 years of hands-on
+            experience in implementing applications and solutions using various
+            technologies and programming languages. Experience in Blockchain
+            technology for 3 years as well. Excellent problem-solving skills and
+            ability to perform well in a team. I am active learner – always
+            trying to stay up to date with the latest technologies. Open to
+            remote positions. Hope to work in a creative team with good culture.
+          </p>
+        </div>
+
+        <!-- User Specifics -->
+        <div class="user">
+          <!-- Technology Stack #1: Languages -->
+          <div class="tech">
+            <h2>Languages</h2>
+            <i class="devicon-html5-plain-wordmark colored"></i>
+            <i class="devicon-javascript-plain colored"></i>
+            <i class="devicon-typescript-plain colored"></i>
+            <i class="devicon-php-plain colored"></i>
+            <i class="devicon-python-plain colored"></i>
+            <i class="devicon-solidity-plain"></i>
+            <i class="devicon-rust-plain colored"></i>
+          </div>
+
+          <!-- Technology Stack #2: Front-End -->
+          <div class="tech">
+            <h2>Front-End</h2>
+            <i class="devicon-css3-plain-wordmark colored"></i>
+            <i class="devicon-sass-original colored"></i>
+            <i class="devicon-bootstrap-plain-wordmark colored"></i>
+            <i class="devicon-jquery-plain-wordmark colored"></i>
+            <i class="devicon-tailwindcss-plain colored"></i>
+            <i class="devicon-react-original-wordmark colored"></i>
+            <i class="devicon-redux-original colored"></i>
+            <i class="devicon-nextjs-original colored"></i>
+            <i class="devicon-vuejs-plain-wordmark colored"></i>
+            <i class="devicon-materialui-plain colored"></i>
+          </div>
+
+          <!-- Technology Stack #3: Back-End -->
+          <div class="tech">
+            <h2>Back-End</h2>
+            <i class="devicon-nodejs-plain colored"></i>
+            <i class="devicon-express-original-wordmark colored"></i>
+            <i class="devicon-nestjs-plain colored"></i>
+            <i class="devicon-laravel-plain-wordmark colored"></i>
+            <i class="devicon-mysql-plain-wordmark colored"></i>
+            <i class="devicon-postgresql-plain-wordmark colored"></i>
+            <i class="devicon-mongodb-plain-wordmark colored"></i>
+          </div>
+
+          <!-- Technology Stack #4: Tools -->
+          <div class="tech">
+            <h2>Tools</h2>
+            <i class="devicon-git-plain-wordmark"></i>
+            <i class="devicon-vscode-plain-wordmark colored"></i>
+            <i class="devicon-github-original colored"></i>
+            <i class="devicon-heroku-plain-wordmark colored"></i>
+            <i class="devicon-digitalocean-plain colored"></i>
+            <i class="devicon-amazonwebservices-plain-wordmark colored"></i>
+            <i class="devicon-firebase-plain colored"></i>
+            <i class="devicon-trello-plain colored"></i>
+            <i class="devicon-photoshop-plain colored"></i>
+            <i class="devicon-figma-plain colored"></i>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Projects Section -->
+    <section id="projects">
+      <div class="container">
+        <div class="user-details">
+          <h1>My Projects</h1>
+        </div>
+
+        <div class="projects-container">
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>Car Parts Service Platform</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/carparts_1.png"
+                    alt="Car Parts"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://www.carparts.com/"
+                  >
+                    <img alt="Car Parts" src="./assets/img/carparts.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>E-commerce Website</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/hatliy.png"
+                    alt="hatliy"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://www.hatliy.com/"
+                  >
+                    <img alt="hatliy" src="./assets/img/hatliy.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>Insurance Service Platform</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/veronicas.png"
+                    alt="veronicas"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://veronicasquote.com/"
+                  >
+                    <img alt="veronicas" src="./assets/img/veronicas.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>NFT Marketplace and Token Staking</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/nftb.png"
+                    alt="nftb"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://nftb.io/"
+                  >
+                    <img alt="nftb" src="./assets/img/nftb.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>Online Shopping Site</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/gyapu.png"
+                    alt="nftb"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://www.gyapu.com/"
+                  >
+                    <img alt="gyapu" src="./assets/img/gyapu.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>NFT Mint Dapp</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/rdbp.png"
+                    alt="RDBP"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://duck.art/"
+                  >
+                    <img alt="RDBP" src="./assets/img/rdbp.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>Landscaping Service Platform</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/jdlandscaping.png"
+                    alt="jdlandscaping"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://jdlandscaping.net/"
+                  >
+                    <img
+                      alt="jdlandscaping"
+                      src="./assets/img/jdlandscaping.png"
+                    />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>DeFi Platform on Ethereum and Binance</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/gainpool.png"
+                    alt="gainpool"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="http://gainpool.io/"
+                  >
+                    <img alt="gainpool" src="./assets/img/gainpool.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>Wedding Band Promotion & Reservation</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/redsoda.png"
+                    alt="redsoda"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://redsoda.com/"
+                  >
+                    <img alt="redsoda" src="./assets/img/redsoda.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+          <div class="user-projects">
+            <div class="single-project">
+              <h3>NFT gated dapp</h3>
+              <div class="img-container">
+                <picture>
+                  <source
+                    type="image/png"
+                    srcset="./assets/img/gyde.png"
+                    alt="gyde"
+                  />
+                  <a
+                    class="project-link"
+                    target="_blank"
+                    href="https://gyde.community/"
+                  >
+                    <img alt="redsoda" src="./assets/img/gyde.png" />
+                  </a>
+                </picture>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact sec-pad dynamicBg">
+      <div class="main-container">
+        <h1>Contact</h1>
+        <div class="contact__form-container">
+          <form
+            name="contact"
+            action="https://formspree.io/f/moqoyrdb"
+            method="POST"
+            class="contact__form"
+          >
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="name">Name</label>
+              <input
+                required
+                placeholder="Enter Your Name"
+                type="text"
+                class="contact__form-input"
+                name="name"
+                id="name"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="email">Email</label>
+              <input
+                required
+                placeholder="Enter Your Email"
+                type="email"
+                class="contact__form-input"
+                name="email"
+                id="email"
+              />
+            </div>
+            <div class="contact__form-field">
+              <label class="contact__form-label" for="message">Message</label>
+              <textarea
+                required
+                cols="30"
+                rows="10"
+                class="contact__form-input contact-textarea"
+                placeholder="Enter Your Message"
+                name="message"
+                id="message"
+              ></textarea>
+            </div>
+            <button type="submit" class="btn btn--theme contact__btn">
+              Submit
+            </button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <p>&copy; Dennis Lee, 2023</p>
+    </footer>
+
+    <!-- Import JS: Font Awesome-->
+    <script src="https://use.fontawesome.com/710870053b.js"></script>
+    <!-- Import JS: Particles Theme -->
+    <script src="https://cdn.jsdelivr.net/particles.js/2.0.0/particles.min.js"></script>
+    <!-- Import JS: Sweet Scroll -->
+    <script src="./assets/js/sweet-scroll.min.js"></script>
+    <!-- Import JS: Google Analytics -->
+    <script src="./assets/js/google-analytics.js"></script>
+    <!-- Import JS: Main Script -->
+    <script src="./assets/js/main.js"></script>
+    <!-- Import JS: Header Script -->
+    <script src="./assets/js/header.js"></script>
+  </body>
+</html>
